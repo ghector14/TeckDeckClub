@@ -1,0 +1,165 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin: 0;
+    background-color: black;
+}
+
+/*---------Navigation---------------------------------------------------------------------------------------------------------*/
+
+nav {
+    padding-top: 1rem;
+    background-color: black;
+    color: white;
+}
+
+.navt {
+        padding-top: 1rem;
+        position: relative;
+        background: linear-gradient(to right, red, purple);
+        padding: 5px;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a :hover {
+    color: red;
+}
+
+ ul {
+     list-style: none;
+     margin: 0;
+ }
+
+ li {
+     word-spacing: none;
+     padding: .5rem 1rem;
+     margin-right: 1rem;
+     display: inline-block;
+ }
+
+ /*--------------------------Header------------------------------------------------------------------------------*/
+
+ .intro h1 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 10rem;
+    padding: 2rem;
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    text-align: center;
+  }
+
+  .intro {
+      height: 30rem;
+      padding-top: 1rem;
+      background-image: url(header.jpg);
+      background-position: center;
+      background-repeat: none;
+  }
+
+  /*------------------------------div--------------------------------------------------------------------------------------*/
+
+  p {
+      color: white;
+  }
+
+  h2 {
+      color: white;
+  }
+
+  .summary{
+      margin: 0;
+      text-align: center;
+      padding-top: 100px;
+      display: inline-block;
+      height: 31.25rem;
+    width: 100%;
+    margin-bottom: 6.25rem;
+  }
+
+  .summary .summary-text {
+    display: inline-block;
+    height: fit-content;
+    width: 49%;
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    padding-right: 3.125rem;
+}
+
+  .link {
+      color: red;
+      text-decoration: underline;
+  }
+
+  .summary img {
+      float: right;
+      padding-right: 100px;
+  }
+
+  /*-----------------------------------div-----------------------------------------------------------------------------*/
+
+  .customise img {
+      width: 700px;
+      height: 500px;
+      float: left;
+      padding-left: 100px;
+  }
+
+  .customise-text {
+    display: inline-block;
+    height: fit-content;
+    width: 49%;
+    padding-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    padding-left: 3.125rem;
+    text-align: center;
+}
+
+/*-------------------------------------video div-------------------------------------------------------------------------------*/
+
+h3 {
+    color: white;
+}
+
+iframe {
+    height: 500px;
+    width: 700px;
+}
+
+
+.video {
+text-align: center;
+margin: 350px;
+}
+/*----------------------------------footer--------------------------------------------------------------------------------------------*/
+
+footer {
+    text-align: center;
+    margin: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
